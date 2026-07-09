@@ -1,8 +1,8 @@
 cask "mullion" do
   # version + sha256 are rewritten by mullion's scripts/release.sh on each release.
   # Placeholder until the first release is cut (the cask is not installable yet).
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.0"
+  sha256 "cbdd2deb04909392bd71f75c40d82123b2726cdbbf23ec722a067726fa03ca36"
 
   url "https://github.com/teotll/homebrew-tap/releases/download/mullion-v#{version}/Mullion-#{version}.dmg"
   name "Mullion"
